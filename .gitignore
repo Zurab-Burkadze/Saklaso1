@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django secret key files or configuration 
+*.env
+.env.*
+
+# Django migrations
+*/migrations/*
+
+# Test and coverage files
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover*
+.hypothesis/
+
+# Virtual environment files
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Static and media files
+/static/
+/media/
+
+# Local settings and database
+local_settings.py
+db.sqlite3
+
+# Logs and debug files
+*.log
+*.pot
+*.mo
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
